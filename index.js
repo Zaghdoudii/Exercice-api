@@ -1,5 +1,7 @@
 const axios = require('axios');
 
+console.log("Bonjour");
+
 let response = null;
 new Promise(async (resolve, reject) => {
   try {
